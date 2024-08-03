@@ -1,0 +1,19 @@
+configuration {
+  show-icons: true;
+  drun-display-format: "{name}";
+
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
+
+@theme "~/.config/rofi/rofi-dmenu.rasi"
+
+
+
+
